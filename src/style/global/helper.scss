@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+    background-color: $white;
+}
+
+input,
+textarea,
+button {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+
+
+.btn {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    padding: $p-10 $p-50;
+    line-height: 28px;
+    border-radius: 28px;
+    text-align: center;
+    width: fit-content;
+    color: $white;
+    transition: background-color .3s;
+
+    &--primary {
+        background-color: $black;
+
+        &:hover {
+            background-color: $light-purple;
+        }
+    }
+
+    &--secondary {
+        background-color: $red;
+
+        &:hover {
+            background-color: $orange;
+        }
+    }
+}
+
+a {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    color: inherit;
+    text-decoration: unset;
+}

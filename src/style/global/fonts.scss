@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+.h,
+h {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    &1,
+    &--1 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    &2,
+    &--2 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+
+    &3,
+    &--3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+p,
+.p {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+
+
+    &--m p,
+    &--m {
+        font-size: 14px;
+    }
+
+    &--s p,
+    &--s {
+        font-size: 12px;
+    }
+}

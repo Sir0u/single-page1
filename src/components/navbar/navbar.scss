@@ -1,0 +1,9 @@
+.navbar {
+    padding-block: $p-40 $p-70;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
