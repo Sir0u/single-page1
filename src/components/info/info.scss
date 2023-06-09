@@ -75,6 +75,9 @@
 
 @media (max-width:992px) {
     .info {
+        &-header {
+            margin-bottom: $p-60;
+        }
 
         &-elements {
             grid-template-columns: repeat(4, 1fr);
@@ -112,6 +115,13 @@
 
 @media (max-width:576px) {
     .info {
+        &-header {
+            margin-bottom: $p-40;
+
+            &-title {
+                margin-bottom: $p-10;
+            }
+        }
 
         &-elements {
             grid-template-columns: repeat(2, 1fr);

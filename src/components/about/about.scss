@@ -1,5 +1,5 @@
 .about {
-    margin-block: $p-70 ;
+    margin-block: $p-100 $p-70 ;
 
     .container {
         display: flex;
@@ -8,7 +8,7 @@
     }
 
     &-img {
-        width: 445px;
+        max-width: clamp(18.75rem, 15.559rem + 13.615vw, 27.8125rem);
     }
 
     &-text {
@@ -16,5 +16,43 @@
         flex-direction: column;
         gap: $p-40;
         margin-block: auto;
+    }
+}
+
+
+@media (max-width:992px) {
+    .about {
+        margin-block: $p-90;
+
+        .container {
+            margin-left: -44px !important;
+            padding-left: 0 !important;
+            gap: $p-65;
+        }
+
+        &-text {
+            gap: $p-30;
+        }
+
+
+    }
+}
+
+@media (max-width:576px) {
+    .about {
+        margin-block: $p-80;
+
+        .container {
+            margin-left: auto !important;
+            padding-left: $p-20 !important;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: $p-60;
+        }
+
+        &-text {
+            align-items: center;
+        }
     }
 }

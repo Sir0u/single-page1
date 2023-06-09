@@ -15,12 +15,17 @@ button {
 .btn {
     font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
     padding: $p-10 $p-50;
+    font-size: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
     line-height: 28px;
     border-radius: 28px;
     text-align: center;
     width: fit-content;
     color: $white;
     transition: background-color .3s;
+
+    @media (max-width: 576px) {
+        padding: $p-5 $p-30;
+    }
 
     &--primary {
         background-color: $black;
