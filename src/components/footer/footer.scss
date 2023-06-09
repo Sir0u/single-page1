@@ -1,0 +1,27 @@
+.footer {
+    padding-block: $p-60 $p-40;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-logo {
+        width: clamp(3rem, 2.6479rem + 1.5023vw, 4rem);
+    }
+}
+
+
+@media (max-width:992px) {
+    .footer {
+        padding-block-start: $p-60;
+    }
+}
+
+
+@media (max-width:576px) {
+    .footer {
+        padding-block-start: $p-40;
+    }
+}
