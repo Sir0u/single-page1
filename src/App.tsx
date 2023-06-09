@@ -3,6 +3,7 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 import Info from "./components/info/Info"
 import Navbar from "./components/navbar/Navbar"
+import Portfolio from "./components/portfolio/Portfolio"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Info />
         <About />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />

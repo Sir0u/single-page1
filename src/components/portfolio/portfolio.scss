@@ -1,0 +1,49 @@
+.portfolio {
+    &-title {
+        text-align: center;
+        margin-bottom: $p-50;
+    }
+
+
+    &-slider {
+        overflow-x: hidden;
+        max-width: 1440px;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &-arrows {
+        display: flex;
+        justify-content: center;
+        margin-top: $p-50;
+        gap: $p-10;
+
+        &-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background-color: $black;
+            cursor: pointer;
+            transition: background-color .3s;
+
+        }
+
+        &-arrow:hover {
+            background-color: $light-purple;
+        }
+
+        &-arrow:nth-child(2) img {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.slick-slide {
+    box-sizing: border-box;
+    padding: 0 10px !important;
+}

@@ -21,8 +21,8 @@ h {
 
     &3,
     &--3 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
+        line-height: clamp(1.875rem, 1.6549rem + 0.939vw, 2.5rem);
     }
 }
 
