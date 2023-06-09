@@ -16,7 +16,7 @@ import arrow from '../../assets/arrow.svg'
 const Portfolio = () => {
 
 
-    const sliderRef = useRef(null);
+    const sliderRef = useRef<Slider>(null);
 
 
     const portfolioItems = [
