@@ -20,6 +20,7 @@ button {
     border-radius: 28px;
     text-align: center;
     width: fit-content;
+    white-space: nowrap;
     color: $white;
     transition: background-color .3s;
 

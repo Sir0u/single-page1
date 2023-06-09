@@ -1,0 +1,52 @@
+.contact {
+    margin-block: $p-70 $p-60 ;
+    margin-inline: $p-25;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15rem;
+        padding: 5rem 5.938rem 5rem 4.063rem;
+        background-color: $black;
+        border-radius: 10px;
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        gap: $p-30;
+
+        &-title,
+        &-desc {
+            color: $white;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .contact {
+        margin-block-start: $p-90 ;
+        margin-inline: $p-45;
+
+        .container {
+            text-align: center;
+            flex-direction: column;
+            gap: $p-35;
+            padding: 3.5rem 4.688rem;
+        }
+    }
+
+}
+
+@media (max-width:576px) {
+    .contact {
+        margin-block: $p-80 $p-45 ;
+        margin-inline: $p-20;
+
+        .container {
+            padding: 3rem 1.5rem;
+        }
+    }
+
+}

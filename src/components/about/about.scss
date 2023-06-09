@@ -38,13 +38,13 @@
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:768px) {
     .about {
         margin-block: $p-80;
 
         .container {
             margin-left: auto !important;
-            padding-left: $p-20 !important;
+            padding-left: $p-45 !important;
             flex-direction: column;
             align-items: center;
             text-align: center;
@@ -53,6 +53,14 @@
 
         &-text {
             align-items: center;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .about {
+        .container {
+            padding-left: $p-10 !important;
         }
     }
 }
