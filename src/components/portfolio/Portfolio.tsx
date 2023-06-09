@@ -52,9 +52,11 @@ const Portfolio = () => {
         centerMode: true,
         infinite: true,
         slidesToShow: 3,
-        initialSlide: 0,
+        initialSlide: 2,
         speed: 500,
         arrows: false,
+        variableWidth: true,
+        adaptiveHeight: true,
         paddingBetweenSlides: 20,
         responsive: [
             {
