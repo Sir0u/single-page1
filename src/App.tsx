@@ -1,3 +1,4 @@
+import About from "./components/about/About"
 import Info from "./components/info/Info"
 import Navbar from "./components/navbar/Navbar"
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <main>
         <Info />
+        {/* <About /> */}
       </main>
     </>
   )

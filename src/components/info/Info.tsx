@@ -56,7 +56,7 @@ const Info = () => {
                     {elements.map(({ id, name, img }) => (
                         <div className='element' key={id}>
                             <img src={img} alt={name} />
-                            <p className='p--l'>{name}</p>
+                            <p>{name}</p>
                         </div>
                     ))}
                 </div>
